@@ -1,0 +1,906 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bws-google-2-step-verification\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-27 17:35+0300\n"
+"PO-Revision-Date: 2017-06-30 13:39+0300\n"
+"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft <plugin@bestwebsoft.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: google-2-step-verification.php:36 google-2-step-verification.php:46
+#: google-2-step-verification.php:1161 google-2-step-verification.php:1346
+msgid "Google 2-Step Verification"
+msgstr "Google 2-Step Verification"
+
+#: google-2-step-verification.php:47 google-2-step-verification.php:362
+#: google-2-step-verification.php:1514 google-2-step-verification.php:1531
+#: includes/class-gglstpvrfctn-settings.php:25
+msgid "Settings"
+msgstr "Установки"
+
+#: google-2-step-verification.php:65
+msgid "Upgrade to Pro"
+msgstr "Оновити до Pro"
+
+#: google-2-step-verification.php:199
+msgid "Failed Verification Attempt"
+msgstr "Невдала спроба верифікації"
+
+#: google-2-step-verification.php:200
+msgid ""
+"Failed 2-Step verification attempt has just been registered at {site_url}."
+msgstr "Невдалу спробу верифікації щойно було зареєстровано на {site_url}."
+
+#: google-2-step-verification.php:201
+msgid "If it was you, just ignore this message."
+msgstr "Якщо це були Ви, просто ігноруйте це повідомлення."
+
+#: google-2-step-verification.php:202
+msgid ""
+"You have received this message because failed attempt notifications are "
+"enabled for your account. You can manage your account settings on the "
+"following page"
+msgstr ""
+"Ви отримали це повідомлення, тому що повідомлення про невдалі спроби "
+"верифікації увімкнені для Вашого облікового запису. Ви можете управляти "
+"Вашими налаштуваннями на наступній сторінці"
+
+#: google-2-step-verification.php:204
+msgid "Verification Code"
+msgstr "Верифікаційний код"
+
+#: google-2-step-verification.php:205
+msgid "Your verification code is {new_code}."
+msgstr "Ваш код верифікації: {new_code}."
+
+#: google-2-step-verification.php:206
+msgid ""
+"You have received this message because someone has just tried to sign in "
+"your account at {site_url} and requested 2-Step verification code."
+msgstr ""
+"Ви отримали це повідомлення, тому що хтось щойно намагався увійти у Ваш "
+"аккаунт на {site_url} і запросив отримання коду для Google 2-Step "
+"Verification."
+
+#: google-2-step-verification.php:284 google-2-step-verification.php:1057
+msgid "Verification code has been sent. Please check your email."
+msgstr "Верифікаційний код було надіслано. Будь ласка, перевірте вашу пошту."
+
+#: google-2-step-verification.php:286
+msgid "Some problems occured during email sending."
+msgstr "При відправці email виникли проблеми."
+
+#: google-2-step-verification.php:289
+msgid "Verification with email code is disabled for this user."
+msgstr "Для цього користувача верифікація по email коду вимкнена."
+
+#: google-2-step-verification.php:342
+msgid "ERROR"
+msgstr "Помилка"
+
+#: google-2-step-verification.php:343
+msgid "Google 2-Step verification failed."
+msgstr "Перевірку Google 2-Step Verification не пройдено."
+
+#: google-2-step-verification.php:453
+msgid ""
+"Protect your personal account by enabling 2-step verification option on your "
+"profile page."
+msgstr ""
+"Увімкніть двоетапну верифікацію на сторінці профілю для кращого захисту "
+"вашого облікового запису."
+
+#: google-2-step-verification.php:455
+msgid "Go to my profile"
+msgstr "Перейти у мій профіль"
+
+#: google-2-step-verification.php:458
+#: includes/class-gglstpvrfctn-settings.php:115
+msgid "Close notice"
+msgstr "Закрити повідомлення"
+
+#: google-2-step-verification.php:861
+msgid "You have no backup codes."
+msgstr "У Вас немає резервних кодів."
+
+#: google-2-step-verification.php:864
+#, php-format
+msgid "Backup codes for %s"
+msgstr "Резервні коди для %s"
+
+#: google-2-step-verification.php:879
+msgid "Visit the following page to generate new codes"
+msgstr "Для отримання нових кодів відвідайте наступну сторінку"
+
+#: google-2-step-verification.php:1112
+msgid "Google 2-Step Verification code"
+msgstr "Код Google 2-Step Verification"
+
+#: google-2-step-verification.php:1117
+msgid "Fill in if you enabled 2-Step verification for your profile"
+msgstr "Введіть код якщо Ви вмикали двоетапну верифікацію для свого профілю"
+
+#: google-2-step-verification.php:1119
+msgid "Send me a code in email"
+msgstr "Отримати код по email"
+
+#: google-2-step-verification.php:1165 google-2-step-verification.php:1350
+msgid "Verification"
+msgstr "Верифікація"
+
+#: google-2-step-verification.php:1171
+msgid "Enable to activate Google 2-Step Verification."
+msgstr "Увімкніть, щоб активувати Google 2-Step Verification."
+
+#: google-2-step-verification.php:1180
+#: includes/class-gglstpvrfctn-settings.php:132
+msgid "Verification Methods"
+msgstr "Методи верифікації"
+
+#: google-2-step-verification.php:1186
+#: includes/class-gglstpvrfctn-settings.php:136
+msgid "Email"
+msgstr "Email"
+
+#: google-2-step-verification.php:1192
+#: includes/class-gglstpvrfctn-settings.php:140
+msgid "Authenticator app"
+msgstr "Додаток Authenticator"
+
+#: google-2-step-verification.php:1198
+#: includes/class-gglstpvrfctn-settings.php:144
+msgid "Backup codes"
+msgstr "Резервні коди"
+
+#: google-2-step-verification.php:1206
+msgid "Failed Attempt Notifications"
+msgstr "Повідомлення про невдалі спроби"
+
+#: google-2-step-verification.php:1210
+msgid ""
+"Enable if you want to receive email notifications about each failed "
+"verification attempt."
+msgstr ""
+"Увімкніть, якщо Ви хочете отримувати email повідомлення про невдалі спроби "
+"верифікації."
+
+#: google-2-step-verification.php:1221
+msgid "Authenticator App"
+msgstr "Додаток Authenticator"
+
+#: google-2-step-verification.php:1226
+msgid "Not verified"
+msgstr "Не перевірено"
+
+#: google-2-step-verification.php:1229
+msgid "Verified"
+msgstr "Перевірено"
+
+#: google-2-step-verification.php:1232
+msgid "Edit"
+msgstr "Змінити"
+
+#: google-2-step-verification.php:1235
+msgid "Cancel"
+msgstr "Відміна"
+
+#: google-2-step-verification.php:1239
+msgid "Done! Your Authenticator app is set."
+msgstr "Готово! Ваш додаток Authenticator налаштовано."
+
+#: google-2-step-verification.php:1245
+#, php-format
+msgid ""
+"Download and install Authenticator application on your %s, %s or %s device."
+msgstr ""
+"Завантажте та встановіть додаток Authenticator на Ваш пристрій %s, %s або %s."
+
+#: google-2-step-verification.php:1253
+msgid "Scan the following QR code using Authenticator application."
+msgstr "Проскануйте наступний QR код за допомогою додатка Authenticator."
+
+#: google-2-step-verification.php:1255
+msgid "Can't scan the QR code?"
+msgstr "Не вдалося просканувати QR код?"
+
+#: google-2-step-verification.php:1258
+msgid "Enter the secret key below into your Authenticator application manually"
+msgstr "Введіть наступний секретний ключ у Ваш додаток Authenticator вручну"
+
+#: google-2-step-verification.php:1264
+msgid ""
+"Once you have entered the secret key, enter and verify the 6-digit "
+"verification code generated by the Authenticator app"
+msgstr ""
+"Після того як Ви ввели секретний ключ, введіть і перевірте шестизначний код, "
+"згенерований додатком Authenticator"
+
+#: google-2-step-verification.php:1266
+msgid ""
+"Once you have scanned the QR code (or entered the secret key manually), "
+"enter and verify the 6-digit verification code generated by the "
+"Authenticator app"
+msgstr ""
+"Після того як Ви просканували QR код (або ввели секретний ключ вручну), "
+"введіть і перевірте шестизначний код, згенерований додатком Authenticator"
+
+#: google-2-step-verification.php:1269
+msgid "Verify"
+msgstr "Перевірити"
+
+#: google-2-step-verification.php:1272
+msgid "Wrong code, try again."
+msgstr "Невірний код, спробуйте ще раз."
+
+#: google-2-step-verification.php:1287
+msgid "Backup Codes"
+msgstr "Резервні коди"
+
+#: google-2-step-verification.php:1292
+#, php-format
+msgid "Codes left: %s"
+msgstr "Залишилось кодів: %s"
+
+#: google-2-step-verification.php:1301
+msgid "Download as TXT"
+msgstr "Завантажити як TXT"
+
+#: google-2-step-verification.php:1304
+msgid "Generate New Codes"
+msgstr "Отримати нові коди"
+
+#: google-2-step-verification.php:1308
+msgid ""
+"Each Backup code can be used only once. You should keep it somewhere safe "
+"but accessible."
+msgstr ""
+"Ви можете використовувати кожен резервний код лише один раз. Зберігайте Ваші "
+"коди у безпечному, але доступному місці."
+
+#: google-2-step-verification.php:1310 google-2-step-verification.php:1311
+msgid "Show Codes"
+msgstr "Відобразити коди"
+
+#: google-2-step-verification.php:1310
+msgid "Hide Codes"
+msgstr "Сховати коди"
+
+#: google-2-step-verification.php:1356
+msgid "Enable if you want the user to use Google 2-Step Verification."
+msgstr "Увімкніть, якщо Ви хочете увімкнути верифікацію для користувача."
+
+#: google-2-step-verification.php:1474
+msgid "You should enable and configure at least one verification method."
+msgstr "Необхідно увімкнути і налаштувати хоча б один метод верифікації."
+
+#: google-2-step-verification.php:1475 google-2-step-verification.php:1488
+msgid "Google 2-Step Verification has been disabled."
+msgstr "Двоетапну верифікацію було вимкнено."
+
+#: google-2-step-verification.php:1487
+msgid "At least one enabled verification method should be configured properly."
+msgstr ""
+"Необхідно коректно налаштувати хоча б один включений метод верифікації."
+
+#: google-2-step-verification.php:1515
+msgid "FAQ"
+msgstr "FAQ"
+
+#: google-2-step-verification.php:1516
+msgid "Support"
+msgstr "Підтримка"
+
+#: includes/class-gglstpvrfctn-settings.php:26
+msgid "Misc"
+msgstr "Різне"
+
+#: includes/class-gglstpvrfctn-settings.php:27
+msgid "Custom Code"
+msgstr "Користувацький код"
+
+#: includes/class-gglstpvrfctn-settings.php:28
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+#: includes/class-gglstpvrfctn-settings.php:89
+msgid "Settings saved."
+msgstr "Налаштування збережено."
+
+#: includes/class-gglstpvrfctn-settings.php:104
+msgid "Please enable JavaScript in Your browser."
+msgstr "Будь ласка, активуйте JavaScript у Вашому браузері."
+
+#: includes/class-gglstpvrfctn-settings.php:111
+msgid "Note"
+msgstr "Увага"
+
+#: includes/class-gglstpvrfctn-settings.php:112
+msgid ""
+"Users should enable 2-step verification option for their accounts on the "
+"personal profile page."
+msgstr ""
+"Користувачі повинні особисто увімкнути двоетапну верифікацію на сторінці "
+"редагування власного профілю."
+
+#: includes/class-gglstpvrfctn-settings.php:127
+msgid "Google 2-Step Verification Settings"
+msgstr "Налаштування Google 2-Step Verification"
+
+#: includes/class-gglstpvrfctn-settings.php:150
+msgid "Allow Using Verification for"
+msgstr "Дозволити використання двоетапної верифікації для"
+
+#: includes/class-gglstpvrfctn-settings.php:154
+msgid "All"
+msgstr "Всі"
+
+#: includes/class-gglstpvrfctn-settings.php:155
+msgid ""
+"Uncheck if you would like to allow Google 2-Step Verification only for the "
+"administrator"
+msgstr ""
+"Вимкніть, щоб дозволити використання Google 2-Step Verification лише "
+"адміністратору"
+
+#: includes/class-gglstpvrfctn-settings.php:164
+#: includes/class-gglstpvrfctn-settings.php:228
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/class-gglstpvrfctn-settings.php:191
+msgid "Email Codes Expiration Time"
+msgstr "Термін дії email кодів"
+
+#: includes/class-gglstpvrfctn-settings.php:194
+#: includes/class-gglstpvrfctn-settings.php:205
+msgid "minute(-s)"
+msgstr "хвилин(а)"
+
+#: includes/class-gglstpvrfctn-settings.php:195
+#, php-format
+msgid "Set \"%d\" to disable expiration time."
+msgstr "Встановіть \"%d\", щоб відключити термін дії коду."
+
+#: includes/class-gglstpvrfctn-settings.php:200
+msgid "Authenticator Time Window"
+msgstr "Термін дії кодів Authenticator"
+
+#: includes/class-gglstpvrfctn-settings.php:206
+msgid ""
+"Time-based codes generation depends upon the time. The time on your web-"
+"server and on device with Authenticator app should be the same. You can "
+"increase Authenticator time window if you want to allow some difference "
+"between your web-server's and user device's time."
+msgstr ""
+"Зміна налаштувань плагіна на цьому сайті заборонено мережевими настройками "
+"Google 2-Step Verification Pro"
+
+#: includes/class-gglstpvrfctn-settings.php:208
+#, php-format
+msgid "Set \"%d\" to use default value (default is %d sec)."
+msgstr ""
+"Встановіть \"%d\", щоб використовувати стандартне значення (за замовчуванням "
+"%d сек)."
+
+#: includes/class-gglstpvrfctn-settings.php:215
+msgid "Email Notifications"
+msgstr "Email повідомлення"
+
+#: includes/class-gglstpvrfctn-settings.php:219
+msgid ""
+"Enable to activate failed verification attempts notifications option for "
+"users (users should enable appropriate option in their profiles to receive "
+"email notifications)."
+msgstr ""
+"Увімкніть для активації можливості користувачам вмикати повідомлення про "
+"невдалі спроби (користувачі повинні увімкнути відповідну опцію на сторінці "
+"свого профілю для отримання email повідомлень)."
+
+#: includes/class-gglstpvrfctn-settings.php:232
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/class-gglstpvrfctn-settings.php:238
+msgid "Message"
+msgstr "Повідомлення"
+
+#: includes/class-gglstpvrfctn-settings.php:242
+msgid "Allowed variables"
+msgstr "Доступні змінні"
+
+#: includes/class-gglstpvrfctn-settings.php:243
+msgid "User name"
+msgstr "Ім'я користувача"
+
+#: includes/class-gglstpvrfctn-settings.php:244
+msgid "User email"
+msgstr "Email користувача"
+
+#: includes/class-gglstpvrfctn-settings.php:245
+msgid "Site name"
+msgstr "Назва сайту"
+
+#: includes/class-gglstpvrfctn-settings.php:246
+msgid "Site URL"
+msgstr "Адреса сайту"
+
+#: includes/class-gglstpvrfctn-settings.php:247
+msgid "Date and time when the IP address was blocked"
+msgstr "Дата і час, коли спробу входу було запобіжено"
+
+#: includes/class-gglstpvrfctn-settings.php:248
+msgid "Blocked IP address"
+msgstr "Заблокована IP адреса"
+
+#: includes/class-gglstpvrfctn-settings.php:249
+msgid "Profile settings page URL"
+msgstr "Адреса сторінки налаштувань користувача"
+
+#: includes/class-gglstpvrfctn-settings.php:254
+msgid "Restore Default Email Notifications"
+msgstr "Відновлення email повідомлень"
+
+#: includes/class-gglstpvrfctn-settings.php:256
+msgid "Restore Email Notifications"
+msgstr "Відновити повідомлення"
+
+#: includes/class-gglstpvrfctn-settings.php:258
+msgid "Restore default email notifications."
+msgstr "Відновити email повідомлення за замовчуванням."
+
+#~ msgid "SMS"
+#~ msgstr "SMS"
+
+#~ msgid "Allow verification with email code"
+#~ msgstr "Дозволити верифікацію за допомогою email кодів"
+
+#~ msgid "Authenticator"
+#~ msgstr "Authenticator"
+
+#~ msgid "Allow verification with Authenticator app code"
+#~ msgstr "Дозволити верифікацію за допомогою кодів додатка Authenticator"
+
+#~ msgid "Allow verification with Backup code"
+#~ msgstr "Дозволити верифікацію за допомогою резервних кодів"
+
+#~ msgctxt "Network Settings"
+#~ msgid "Network"
+#~ msgstr "Мережеві"
+
+#~ msgid "Google 2-Step Verification Pro"
+#~ msgstr "Google 2-Step Verification Pro"
+
+#~ msgid "Notice"
+#~ msgstr "Увага"
+
+#~ msgid ""
+#~ "According to Google 2-Step Verification Pro network settings, it is "
+#~ "prohibited to view the plugin settings on this site"
+#~ msgstr ""
+#~ "Перегляд налаштувань плагіна на цьому сайті заборонено мережевим "
+#~ "налаштуванням Google 2-Step Verification Pro"
+
+#~ msgid ""
+#~ "According to Google 2-Step Verification Pro network settings, it is "
+#~ "prohibited to change the plugin settings on this site"
+#~ msgstr ""
+#~ "Зміна налаштувань плагіна на цьому сайті заборонено мережевим "
+#~ "налаштуванням Google 2-Step Verification Pro"
+
+#~ msgid "Apply network settings"
+#~ msgstr "Застосувати мережеві налаштування"
+
+#~ msgid "Apply to all sites and use by default"
+#~ msgstr "Застосувати для всіх сайтів і використовувати за замовчуванням"
+
+#~ msgid "All current settings on separate sites will be replaced"
+#~ msgstr "Всі поточні налаштування окремих сайтів буде замінено"
+
+#~ msgid "Allow changing the settings on separate websites"
+#~ msgstr "Дозволити зміну налаштувань на окремих сайтах"
+
+#~ msgid "Allow viewing the settings on separate websites"
+#~ msgstr "Дозволити переглядати налаштування для окремих сайтів"
+
+#~ msgid "By default"
+#~ msgstr "За замовчуванням"
+
+#~ msgid "Settings will be applied to newly added websites by default"
+#~ msgstr ""
+#~ "Налаштування будуть застосовані до знов доданих веб-сайтів за "
+#~ "замовчуванням"
+
+#~ msgid "Do not apply"
+#~ msgstr "Не застосовувати"
+
+#~ msgid "Change the settings on separate sites of the multisite only"
+#~ msgstr "Змінювати налаштування лише на окремих сайтах"
+
+#~ msgid ""
+#~ "If you would like to add buttons to your page or post, please use %s "
+#~ "button"
+#~ msgstr ""
+#~ "Якщо ви хочете додати кнопки на вашу сторінку або пост, будь ласка, "
+#~ "використовуйте кнопку %s"
+
+#~ msgid ""
+#~ "You can add buttons to your page or post by clicking on %s button in the "
+#~ "content edit block using the Visual mode. If the button isn't displayed, "
+#~ "please use the shortcode %s"
+#~ msgstr ""
+#~ "Ви можете додати кнопки на вашу сторінку або пост, натиснувши на кнопку "
+#~ "%s в блоці редагування контенту в режимі Visual. Якщо кнопка не "
+#~ "відображається, будь ласка, використовуйте шорткод %s"
+
+#~ msgid "Display button"
+#~ msgstr "Відображати кнопку"
+
+#~ msgid "My Page"
+#~ msgstr "Моя сторінка"
+
+#~ msgid "Like"
+#~ msgstr "Подобається"
+
+#~ msgid "Share"
+#~ msgstr "Поширити"
+
+#~ msgid "Buttons position"
+#~ msgstr "Розташування кнопок"
+
+#~ msgid "Before"
+#~ msgstr "До"
+
+#~ msgid "After"
+#~ msgstr "Після"
+
+#~ msgid "Before and After"
+#~ msgstr "До та після"
+
+#~ msgid "Shortcode"
+#~ msgstr "Шорткод"
+
+#~ msgid "Save Changes"
+#~ msgstr "Зберегти зміни"
+
+#~ msgid "Add buttons to your page or post"
+#~ msgstr "Додати кнопки на вашу сторінку або пост"
+
+#~ msgid "Facebook Button Settings"
+#~ msgstr "Установки кнопки Facebook"
+
+#~ msgid "Error: File size > 32K"
+#~ msgstr "Помилка: Розмір файлу > 32K"
+
+#~ msgid "Error: Invalid file type"
+#~ msgstr "Помилка: Невірний тип файлу"
+
+#~ msgid "Upload successful."
+#~ msgstr "Файл був завантажений успішно"
+
+#~ msgid "Error: moving file failed"
+#~ msgstr "Помилка: не вдалося переміщення файлів"
+
+#~ msgid "Error: check image width or height"
+#~ msgstr "Помилка: Перевірте ширину або висоту зображення"
+
+#~ msgid "Uploading Error: check image properties"
+#~ msgstr "Помилка Завантаження: Перевірте властивості зображення"
+
+#~ msgid "How to Use Step-by-step Instruction"
+#~ msgstr "Iнструкцiя з використання"
+
+#~ msgid "Extra settings"
+#~ msgstr "Додаткові налаштування"
+
+#~ msgid "Go PRO"
+#~ msgstr "Перейти на PRO версію"
+
+#~ msgid "Facebook buttons language"
+#~ msgstr "Мова кнопок Facebook"
+
+#~ msgid "Change the language of Facebook Button"
+#~ msgstr "Змінити мову для кнопок Facebook"
+
+#~ msgid "Use the current site language"
+#~ msgstr "Використовувати поточну мову сайту"
+
+#~ msgid "Using"
+#~ msgstr "Використовуючи"
+
+#~ msgid "Activate"
+#~ msgstr "Активувати"
+
+#~ msgid "Display buttons in excerpt"
+#~ msgstr "Відображати кнопки в уривку"
+
+#~ msgid "Meta tags"
+#~ msgstr "Мета теги"
+
+#~ msgid "Image"
+#~ msgstr "Зображення"
+
+#~ msgid "Featured Image"
+#~ msgstr "Головне зображення"
+
+#~ msgid "Custom Image"
+#~ msgstr "Користувацьке зображення"
+
+#~ msgid "This image will be used for all of the posts"
+#~ msgstr "Це зображення буде використовуватися для всiх записiв"
+
+#~ msgid "Post excerpt"
+#~ msgstr "Уривок"
+
+#~ msgid "This description will be used for all of the posts"
+#~ msgstr "Цей короткий опис буде використовуватися у всiх постах"
+
+#~ msgid "If you upgrade to Pro version all your settings will be saved."
+#~ msgstr "Якщо ви перейдете на Pro версію, усі установки будуть збережені."
+
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr "Зробити доступними преміум-опції, перейшовши на Pro версію"
+
+#~ msgid "Learn More"
+#~ msgstr "Докладніше"
+
+#~ msgid "Your Facebook ID or username"
+#~ msgstr "ID вашого Facebook акаунту"
+
+#~ msgid "\"My page\" button image"
+#~ msgstr "Зображення кнопки \"Моя сторінка\""
+
+#~ msgid "Standard Facebook image"
+#~ msgstr "Стандартне зображення Facebook "
+
+#~ msgid "Custom Facebook image"
+#~ msgstr "Кастомне зображення Facebook"
+
+#~ msgid ""
+#~ "To use custom image you need to setup permissions to upload directory of "
+#~ "your site"
+#~ msgstr ""
+#~ "Для використання кастомного зображення Вам необхідно видати права доступу "
+#~ "на папку завантажень на вашому сайті"
+
+#~ msgid "Current image"
+#~ msgstr "Поточне зображення"
+
+#~ msgid ""
+#~ "Image properties: max image width:100px; max image height:40px; max image "
+#~ "size:32Kb; image types:\"jpg\", \"jpeg\", \"png\"."
+#~ msgstr ""
+#~ "Властивості зображення: максимальна ширина зображення:100px; максимальна "
+#~ "висота зображення: 40px; максимальний розмір зображення: 32Kb; типи "
+#~ "зображеннь :\"jpg\", \"jpeg\", \"png\"."
+
+#~ msgid "Button layout"
+#~ msgstr "Тип кнопок"
+
+#~ msgid "Like button action"
+#~ msgstr "Дія кнопки \"Like\""
+
+#~ msgid "Recommend"
+#~ msgstr "Рекомендую"
+
+#~ msgid "Layout width"
+#~ msgstr "Ширина блоку"
+
+#~ msgid "Color scheme"
+#~ msgstr "Кольорова схема"
+
+#~ msgid "Light"
+#~ msgstr "Світла"
+
+#~ msgid "Dark"
+#~ msgstr "Темна"
+
+#~ msgid "Html tag for \"Like\" button"
+#~ msgstr "Html тег для кнопки \"Подобається\""
+
+#~ msgid "Use this tag to improve validation of your site"
+#~ msgstr "Використовуйте цей тег для поліпшення валідації вашого сайту"
+
+#~ msgid "\"Like\" for an entire site on every page:"
+#~ msgstr "\"Подобається\" для всього сайту на кожній сторінці"
+
+#~ msgid ""
+#~ "Notice: \"Like for the entire site\" option does not create an extra "
+#~ "button. This option merely allows your users to like the entire website "
+#~ "when this option is enabled, or a single post when this option is "
+#~ "disabled, when clicking the regular \"Like\" button."
+#~ msgstr ""
+#~ "Увага: опція  \"Подобається для всього сайту\" - не створює додаткову "
+#~ "кнопку. Ця опція дозволяє при кліку користувачами на стандартну кнопку "
+#~ "плагіна ставити \"Подобається\" усьому сайту , якщо ця опція увімкнена, "
+#~ "або ставити \"Подобається\" окремим постам, якщо опція вимкнена."
+
+#~ msgid "Facebook Button preview:"
+#~ msgstr "Попередній перегляд Facebook кнопок:"
+
+#~ msgid ""
+#~ "Please choose the necessary post types (or single pages) where Facebook "
+#~ "button will be displayed:"
+#~ msgstr ""
+#~ "Будь ласка, оберіть необхідні типи постів (чи сторінок), де буде "
+#~ "відображатися кнопка Facebook"
+
+#~ msgid "Show URL for pages"
+#~ msgstr "Відображати URL сторінок"
+
+#~ msgid "Example of the site's pages tree"
+#~ msgstr "Приклад дерева сторінок сайту"
+
+#~ msgid "Example of site pages' tree"
+#~ msgstr "Приклад дерева сторінок сайту"
+
+#~ msgid "None"
+#~ msgstr "Не використовувати"
+
+#~ msgid "Custom description"
+#~ msgstr "Користувацький короткий опис"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Налаштування плагіну було змінено. Для того, щоб зберегти ці зміни, не "
+#~ "забудьте нажати кнопку \"Зберегти зміни\"."
+
+#~ msgid "pixels"
+#~ msgstr "px"
+
+#~ msgid "Go"
+#~ msgstr "Перейти"
+
+#~ msgid "Are you sure you want to restore all settings by default?"
+#~ msgstr "Ви впевнені, що хочете скинути налаштування плагіну до стандартних?"
+
+#~ msgid "Yes, restore all settings"
+#~ msgstr "Так, скинути налаштування"
+
+#~ msgid "No, go back to the settings page"
+#~ msgstr "Ні, повернутись назад на сторінку налаштувань"
+
+#~ msgid "Restore all plugin settings to defaults"
+#~ msgstr "Скинути налаштування плагіну до стандартних"
+
+#~ msgid "Choose display settings:"
+#~ msgstr "Виберіть відображати установки:"
+
+#~ msgid "Facebook image:"
+#~ msgstr "Зображення Facebook :"
+
+#~ msgid "requires"
+#~ msgstr "потребує"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "чи вище, тому він був деактивований! Будь ласка оновіть WordPress та "
+#~ "спробуйте ще раз."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Повернутися до WordPress на"
+
+#~ msgid "Plugins page"
+#~ msgstr "Сторінку плагинів"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later. If the error will appear again, "
+#~ "please, contact us <a href=http://support.bestwebsoft.com>BestWebSoft</"
+#~ "a>. We are sorry for inconvenience."
+#~ msgstr ""
+#~ "Виникли певні проблеми. Спробуйте ще раз пізніше. Якщо помилка виникатиме "
+#~ "знову, будь ласка, зверніться до нашої служби підтримки href=http://"
+#~ "support.bestwebsoft.com>BestWebSoft</a>. Просимо вибачення за незручності."
+
+#~ msgid "This license key is bind to another site"
+#~ msgstr "Ліцензійний ключ прив'язано до іншого сайту"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries. Please, "
+#~ "upload the plugin manually."
+#~ msgstr ""
+#~ "На жаль, Ви перевищили кількість доступних спроб на день. Будь ласка, "
+#~ "завантажте плагін вручну."
+
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Виникли проблеми під чаз розпакування zip-архіву. Будь ласка, завантажте "
+#~ "плагін вручну."
+
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Ваш сервер не підтримує ані ZipArchive, ані Phar. Будь ласка, завантажте "
+#~ "плагін вручну"
+
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Виникли проблеми під час завантаження zip-архіву. Будь ласка, завантажте "
+#~ "архів вручну."
+
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvienience."
+#~ msgstr ""
+#~ "Виникли певні проблеми. Спробуйте ще раз пізніше або завантажте плагін "
+#~ "вручну. Просимо вібачення за незручності."
+
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Будь ласка, впишіть ваш ліцензійний ключ"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr ""
+#~ "Якщо Вам сподобався наш плагін, ми будемо раді, якщо Ви оціните його у "
+#~ "п'ять зірочок на WordPress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Оцініти плагін"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Якщо у вас є запитання, будь ласка, звертайтесь до нас"
+
+#~ msgid ""
+#~ "Congratulations! The PRO version of the plugin is successfully download "
+#~ "and activated."
+#~ msgstr "Вітаємо! PRO версію плагіну успішно завантажено та активовано."
+
+#~ msgid "Please, go to"
+#~ msgstr "Будь ласка, перейдіть"
+
+#~ msgid "You will be redirected automatically in 5 seconds."
+#~ msgstr "Вас буде перенаправлено автоматично через 5 секунд."
+
+#~ msgid "You can download and activate"
+#~ msgstr "Ви можете завантажити та активувати"
+
+#~ msgid "version of this plugin by entering Your license key."
+#~ msgstr "версію уього плагіну, якщо впишете ваш ліцензійний ключ."
+
+#~ msgid ""
+#~ "You can find your license key on your personal page Client area, by "
+#~ "clicking on the link"
+#~ msgstr ""
+#~ "Ви можете знайти ваш ліцензійний ключ на вашій персональній сторінці у  "
+#~ "Client area, перейшовши за посиланням"
+
+#~ msgid ""
+#~ "(your username is the email you specify when purchasing the product)."
+#~ msgstr ""
+#~ "(ім'я користувача - це електронна адреса, яку ви вказуєте при купівлі "
+#~ "продукту)."
+
+#~ msgid "Go!"
+#~ msgstr "Перейти!"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "На жаль, Ви перевищили кількість доступних спроб на день. Будь ласка, "
+#~ "завантажте плагін вручну."
+
+#~ msgid ""
+#~ "It's time to upgrade your <strong>Facebook Like Button</strong> to "
+#~ "<strong>PRO</strong> version"
+#~ msgstr ""
+#~ "Час оновити ваш <strong>Facebook Like Button</strong> до <strong>PRO</"
+#~ "strong> версії!"
+
+#~ msgid "Extend standard plugin functionality with new great options"
+#~ msgstr "Розширити стандартний функціонал плагіну новими опціями."

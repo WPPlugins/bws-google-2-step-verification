@@ -1,0 +1,955 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bws-google-2-step-verification\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-27 17:35+0300\n"
+"PO-Revision-Date: 2017-06-30 13:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <plugin@bestwebsoft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: google-2-step-verification.php:36 google-2-step-verification.php:46
+#: google-2-step-verification.php:1161 google-2-step-verification.php:1346
+msgid "Google 2-Step Verification"
+msgstr "Google 2-Step Verification"
+
+#: google-2-step-verification.php:47 google-2-step-verification.php:362
+#: google-2-step-verification.php:1514 google-2-step-verification.php:1531
+#: includes/class-gglstpvrfctn-settings.php:25
+msgid "Settings"
+msgstr "Настройки"
+
+#: google-2-step-verification.php:65
+msgid "Upgrade to Pro"
+msgstr "Обновить до Pro"
+
+#: google-2-step-verification.php:199
+msgid "Failed Verification Attempt"
+msgstr "Неудачная попытка верификации"
+
+#: google-2-step-verification.php:200
+msgid ""
+"Failed 2-Step verification attempt has just been registered at {site_url}."
+msgstr ""
+"Только что была зарегистрирована неудачная попытка верификации на {site_url}."
+
+#: google-2-step-verification.php:201
+msgid "If it was you, just ignore this message."
+msgstr "Если это были Вы, просто проигнорируйте это сообщение."
+
+#: google-2-step-verification.php:202
+msgid ""
+"You have received this message because failed attempt notifications are "
+"enabled for your account. You can manage your account settings on the "
+"following page"
+msgstr ""
+"Вы получили это сообщение, потому что для Вашего аккаунта включены "
+"уведомления о неудачных попытках верификации. Вы можете управлять Вашими "
+"настройками на следующей странице"
+
+#: google-2-step-verification.php:204
+msgid "Verification Code"
+msgstr "Верификационный код"
+
+#: google-2-step-verification.php:205
+msgid "Your verification code is {new_code}."
+msgstr "Ваш код верификации: {new_code}."
+
+#: google-2-step-verification.php:206
+msgid ""
+"You have received this message because someone has just tried to sign in "
+"your account at {site_url} and requested 2-Step verification code."
+msgstr ""
+"Вы получили это сообщение, потому что кто-то только что пытался войти в Ваш "
+"аккаунт на {site_url} и запросил получение кода для Google 2-Step "
+"Verification."
+
+#: google-2-step-verification.php:284 google-2-step-verification.php:1057
+msgid "Verification code has been sent. Please check your email."
+msgstr "Верификационный код был отправлен. Пожалуйста, проверьте вашу почту."
+
+#: google-2-step-verification.php:286
+msgid "Some problems occured during email sending."
+msgstr "При отправке email возникли проблемы."
+
+#: google-2-step-verification.php:289
+msgid "Verification with email code is disabled for this user."
+msgstr "Для этого пользователя отключена верификация по email коду."
+
+#: google-2-step-verification.php:342
+msgid "ERROR"
+msgstr "Ошибка"
+
+#: google-2-step-verification.php:343
+msgid "Google 2-Step verification failed."
+msgstr "Проверка Google 2-Step Verification не пройдена."
+
+#: google-2-step-verification.php:453
+msgid ""
+"Protect your personal account by enabling 2-step verification option on your "
+"profile page."
+msgstr ""
+"Включите двухэтапную верификацию на странице профиля для лучшей защиты "
+"Вашего аккаунта"
+
+#: google-2-step-verification.php:455
+msgid "Go to my profile"
+msgstr "Перейти в мой профиль"
+
+#: google-2-step-verification.php:458
+#: includes/class-gglstpvrfctn-settings.php:115
+msgid "Close notice"
+msgstr "Закрыть уведомление"
+
+#: google-2-step-verification.php:861
+msgid "You have no backup codes."
+msgstr "У Вас нет резервных кодов."
+
+#: google-2-step-verification.php:864
+#, php-format
+msgid "Backup codes for %s"
+msgstr "Резервные коды для %s"
+
+#: google-2-step-verification.php:879
+msgid "Visit the following page to generate new codes"
+msgstr "Для получения новых кодов посетите следующую страницу"
+
+#: google-2-step-verification.php:1112
+msgid "Google 2-Step Verification code"
+msgstr "Код Google 2-Step Verification"
+
+#: google-2-step-verification.php:1117
+msgid "Fill in if you enabled 2-Step verification for your profile"
+msgstr ""
+"Введите код если Вы включали двухэтапную верификацию для своего профиля"
+
+#: google-2-step-verification.php:1119
+msgid "Send me a code in email"
+msgstr "Полчить код по email"
+
+#: google-2-step-verification.php:1165 google-2-step-verification.php:1350
+msgid "Verification"
+msgstr "Верификация"
+
+#: google-2-step-verification.php:1171
+msgid "Enable to activate Google 2-Step Verification."
+msgstr "Включите, чтобы активировать Google 2-Step Verification."
+
+#: google-2-step-verification.php:1180
+#: includes/class-gglstpvrfctn-settings.php:132
+msgid "Verification Methods"
+msgstr "Методы верификации"
+
+#: google-2-step-verification.php:1186
+#: includes/class-gglstpvrfctn-settings.php:136
+msgid "Email"
+msgstr "Email"
+
+#: google-2-step-verification.php:1192
+#: includes/class-gglstpvrfctn-settings.php:140
+msgid "Authenticator app"
+msgstr "Приложение Authenticator"
+
+#: google-2-step-verification.php:1198
+#: includes/class-gglstpvrfctn-settings.php:144
+msgid "Backup codes"
+msgstr "Резервные коды"
+
+#: google-2-step-verification.php:1206
+msgid "Failed Attempt Notifications"
+msgstr "Уведомления о неудачных попытках"
+
+#: google-2-step-verification.php:1210
+msgid ""
+"Enable if you want to receive email notifications about each failed "
+"verification attempt."
+msgstr ""
+"Включите, если Вы хотите получать email уведомления о неудачных попытках "
+"верификации."
+
+#: google-2-step-verification.php:1221
+msgid "Authenticator App"
+msgstr "Приложение Authenticator"
+
+#: google-2-step-verification.php:1226
+msgid "Not verified"
+msgstr "Не проверен"
+
+#: google-2-step-verification.php:1229
+msgid "Verified"
+msgstr "Проверен"
+
+#: google-2-step-verification.php:1232
+msgid "Edit"
+msgstr "Изменить"
+
+#: google-2-step-verification.php:1235
+msgid "Cancel"
+msgstr "Отмена"
+
+#: google-2-step-verification.php:1239
+msgid "Done! Your Authenticator app is set."
+msgstr "Готово! Ваше приложение Authenticator настроено."
+
+#: google-2-step-verification.php:1245
+#, php-format
+msgid ""
+"Download and install Authenticator application on your %s, %s or %s device."
+msgstr ""
+"Скачайте и установите приложение Authenticator на Ваше устройство %s, %s или "
+"%s."
+
+#: google-2-step-verification.php:1253
+msgid "Scan the following QR code using Authenticator application."
+msgstr "Просканируйте следующий QR код при помощи приложения Authenticator."
+
+#: google-2-step-verification.php:1255
+msgid "Can't scan the QR code?"
+msgstr "Не удаётся просканировать QR код?"
+
+#: google-2-step-verification.php:1258
+msgid "Enter the secret key below into your Authenticator application manually"
+msgstr ""
+"Введите следующий секретный ключ в Ваше приложение Authenticator вручную"
+
+#: google-2-step-verification.php:1264
+msgid ""
+"Once you have entered the secret key, enter and verify the 6-digit "
+"verification code generated by the Authenticator app"
+msgstr ""
+"После того как Вы ввели секретный ключ, введите и проверьте шестизначный "
+"код, сгенерированный приложением Authenticator"
+
+#: google-2-step-verification.php:1266
+msgid ""
+"Once you have scanned the QR code (or entered the secret key manually), "
+"enter and verify the 6-digit verification code generated by the "
+"Authenticator app"
+msgstr ""
+"После того как Вы просканировали QR код (или ввели секретный ключ вручную), "
+"введите и проверьте шестизначный код, сгенерированный приложением "
+"Authenticator"
+
+#: google-2-step-verification.php:1269
+msgid "Verify"
+msgstr "Проверить"
+
+#: google-2-step-verification.php:1272
+msgid "Wrong code, try again."
+msgstr "Неверный код, попробуйте ещё раз."
+
+#: google-2-step-verification.php:1287
+msgid "Backup Codes"
+msgstr "Резервные коды"
+
+#: google-2-step-verification.php:1292
+#, php-format
+msgid "Codes left: %s"
+msgstr "Осталось кодов: %s"
+
+#: google-2-step-verification.php:1301
+msgid "Download as TXT"
+msgstr "Загрузить как TXT"
+
+#: google-2-step-verification.php:1304
+msgid "Generate New Codes"
+msgstr "Получить новые коды"
+
+#: google-2-step-verification.php:1308
+msgid ""
+"Each Backup code can be used only once. You should keep it somewhere safe "
+"but accessible."
+msgstr ""
+"Вы можете использовать каждый резервный код только один раз. Храните Ваши "
+"коды в сохранном, но доступном месте."
+
+#: google-2-step-verification.php:1310 google-2-step-verification.php:1311
+msgid "Show Codes"
+msgstr "Показать коды"
+
+#: google-2-step-verification.php:1310
+msgid "Hide Codes"
+msgstr "Скрыть коды"
+
+#: google-2-step-verification.php:1356
+msgid "Enable if you want the user to use Google 2-Step Verification."
+msgstr "Отметьте, если Вы хотите включить верификацию для пользователя."
+
+#: google-2-step-verification.php:1474
+msgid "You should enable and configure at least one verification method."
+msgstr "Необходимо включить и настроить хотя бы один метод верификации."
+
+#: google-2-step-verification.php:1475 google-2-step-verification.php:1488
+msgid "Google 2-Step Verification has been disabled."
+msgstr "Двухэтапная верификация была отключена."
+
+#: google-2-step-verification.php:1487
+msgid "At least one enabled verification method should be configured properly."
+msgstr ""
+"Необходимо корректно настроить хотя бы один включённый метод верификации."
+
+#: google-2-step-verification.php:1515
+msgid "FAQ"
+msgstr "FAQ"
+
+#: google-2-step-verification.php:1516
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/class-gglstpvrfctn-settings.php:26
+msgid "Misc"
+msgstr "Разное"
+
+#: includes/class-gglstpvrfctn-settings.php:27
+msgid "Custom Code"
+msgstr "Пользовательский код"
+
+#: includes/class-gglstpvrfctn-settings.php:28
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: includes/class-gglstpvrfctn-settings.php:89
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: includes/class-gglstpvrfctn-settings.php:104
+msgid "Please enable JavaScript in Your browser."
+msgstr "Пожалуйста, включите поддержку JavaScript в вашем браузере."
+
+#: includes/class-gglstpvrfctn-settings.php:111
+msgid "Note"
+msgstr "Внимание"
+
+#: includes/class-gglstpvrfctn-settings.php:112
+msgid ""
+"Users should enable 2-step verification option for their accounts on the "
+"personal profile page."
+msgstr ""
+"Пользователи должны включить двухэтапную верификацию на странице "
+"редактирования собственного профиля лично."
+
+#: includes/class-gglstpvrfctn-settings.php:127
+msgid "Google 2-Step Verification Settings"
+msgstr "Настройки Google 2-Step Verification"
+
+#: includes/class-gglstpvrfctn-settings.php:150
+msgid "Allow Using Verification for"
+msgstr "Разрешить использование дополнительной верификации для"
+
+#: includes/class-gglstpvrfctn-settings.php:154
+msgid "All"
+msgstr "Все"
+
+#: includes/class-gglstpvrfctn-settings.php:155
+msgid ""
+"Uncheck if you would like to allow Google 2-Step Verification only for the "
+"administrator"
+msgstr ""
+"Отключите, что бы разрешить использование Google 2-Step Verification только "
+"для администратора"
+
+#: includes/class-gglstpvrfctn-settings.php:164
+#: includes/class-gglstpvrfctn-settings.php:228
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/class-gglstpvrfctn-settings.php:191
+msgid "Email Codes Expiration Time"
+msgstr "Срок действия email кодов"
+
+#: includes/class-gglstpvrfctn-settings.php:194
+#: includes/class-gglstpvrfctn-settings.php:205
+msgid "minute(-s)"
+msgstr "минут(ы)"
+
+#: includes/class-gglstpvrfctn-settings.php:195
+#, php-format
+msgid "Set \"%d\" to disable expiration time."
+msgstr "Установите \"%d\", чтобы отключить срок действия кода."
+
+#: includes/class-gglstpvrfctn-settings.php:200
+msgid "Authenticator Time Window"
+msgstr "Временное окно для Authenticator"
+
+#: includes/class-gglstpvrfctn-settings.php:206
+msgid ""
+"Time-based codes generation depends upon the time. The time on your web-"
+"server and on device with Authenticator app should be the same. You can "
+"increase Authenticator time window if you want to allow some difference "
+"between your web-server's and user device's time."
+msgstr ""
+"Генерирование кодов зависит от времени. Время на Вашем веб-сервере и на "
+"устройстве с приложением Authenticator должно совпадать. Вы можете увеличить "
+"срок действия кодов Authenticator для того, что б позволить некоторое "
+"расхождение между временем Вашего веб-сервера и устройствами пользователей."
+
+#: includes/class-gglstpvrfctn-settings.php:208
+#, php-format
+msgid "Set \"%d\" to use default value (default is %d sec)."
+msgstr ""
+"Установите \"%d\", чтобы использовать стандартное значение (по умолчанию %d "
+"сек)."
+
+#: includes/class-gglstpvrfctn-settings.php:215
+msgid "Email Notifications"
+msgstr "Email уведомления"
+
+#: includes/class-gglstpvrfctn-settings.php:219
+msgid ""
+"Enable to activate failed verification attempts notifications option for "
+"users (users should enable appropriate option in their profiles to receive "
+"email notifications)."
+msgstr ""
+"Отметьте для активации возможности пользователям включать уведомления о "
+"неудачных попытках (пользователи должны включить соответствующую опцию на "
+"странице своего профиля для получения email уведомлений)."
+
+#: includes/class-gglstpvrfctn-settings.php:232
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/class-gglstpvrfctn-settings.php:238
+msgid "Message"
+msgstr "Сообщение"
+
+#: includes/class-gglstpvrfctn-settings.php:242
+msgid "Allowed variables"
+msgstr "Допустимые переменные"
+
+#: includes/class-gglstpvrfctn-settings.php:243
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: includes/class-gglstpvrfctn-settings.php:244
+msgid "User email"
+msgstr "Email пользователя"
+
+#: includes/class-gglstpvrfctn-settings.php:245
+msgid "Site name"
+msgstr "Название сайта"
+
+#: includes/class-gglstpvrfctn-settings.php:246
+msgid "Site URL"
+msgstr "Адрес сайта"
+
+#: includes/class-gglstpvrfctn-settings.php:247
+msgid "Date and time when the IP address was blocked"
+msgstr "Дата и время, когда была предотвращена попытка входа"
+
+#: includes/class-gglstpvrfctn-settings.php:248
+msgid "Blocked IP address"
+msgstr "Блокированный IP адрес"
+
+#: includes/class-gglstpvrfctn-settings.php:249
+msgid "Profile settings page URL"
+msgstr "Адрес страницы настроек пользователя"
+
+#: includes/class-gglstpvrfctn-settings.php:254
+msgid "Restore Default Email Notifications"
+msgstr "Восстановить стандартные email уведомления"
+
+#: includes/class-gglstpvrfctn-settings.php:256
+msgid "Restore Email Notifications"
+msgstr "Восстановить стандартные уведомления"
+
+#: includes/class-gglstpvrfctn-settings.php:258
+msgid "Restore default email notifications."
+msgstr "Восстановить стандартные настройки email уведомления."
+
+#~ msgid "SMS"
+#~ msgstr "SMS"
+
+#~ msgid "Allow verification with email code"
+#~ msgstr "Резрешить верификацию при помощи email кодов"
+
+#~ msgid "Authenticator"
+#~ msgstr "Authenticator"
+
+#~ msgid "Allow verification with Authenticator app code"
+#~ msgstr "Резрешить верификацию при помощи кодов приложения Authenticator"
+
+#~ msgid "Allow verification with Backup code"
+#~ msgstr "Резрешить верификацию при помощи резервных кодов"
+
+#~ msgctxt "Network Settings"
+#~ msgid "Network"
+#~ msgstr "Сетевые"
+
+#~ msgid "Google 2-Step Verification Pro"
+#~ msgstr "Google 2-Step Verification Pro"
+
+#~ msgid "Notice"
+#~ msgstr "Внимание"
+
+#~ msgid ""
+#~ "According to Google 2-Step Verification Pro network settings, it is "
+#~ "prohibited to view the plugin settings on this site"
+#~ msgstr ""
+#~ "Просмотр настроек плагина на этом сайте запрещен сетевыми настройками "
+#~ "Google 2-Step Verification Pro"
+
+#~ msgid ""
+#~ "According to Google 2-Step Verification Pro network settings, it is "
+#~ "prohibited to change the plugin settings on this site"
+#~ msgstr ""
+#~ "Изменение настроек плагина на этом сайте запрещено сетевыми настройками "
+#~ "Google 2-Step Verification Pro"
+
+#~ msgid "Apply network settings"
+#~ msgstr "Применить сетевые настройки"
+
+#~ msgid "Apply to all sites and use by default"
+#~ msgstr "Применить для всех сайтов и использовать по умолчанию"
+
+#~ msgid "All current settings on separate sites will be replaced"
+#~ msgstr "Все текущие настройки в отдельных сайтах будут заменены"
+
+#~ msgid "Allow changing the settings on separate websites"
+#~ msgstr "Разрешить изменение настроек на отдельных подсайтах"
+
+#~ msgid "Allow viewing the settings on separate websites"
+#~ msgstr "Разрешить просматривать настройки для отдельных сайтов"
+
+#~ msgid "By default"
+#~ msgstr "По-умолчанию"
+
+#~ msgid "Settings will be applied to newly added websites by default"
+#~ msgstr ""
+#~ "Настройки будут применены ко вновь добавленным веб-сайтам по умолчанию"
+
+#~ msgid "Do not apply"
+#~ msgstr "Не применять"
+
+#~ msgid "Change the settings on separate sites of the multisite only"
+#~ msgstr "Изменять настройки только на отдельных сайтах"
+
+#~ msgctxt "visit your profile page"
+#~ msgid ""
+#~ "The settings on this page just indicate the verification methods that "
+#~ "will be available for your users. If you would like to enable 2-step "
+#~ "verification on your account, please visit your"
+#~ msgstr ""
+#~ "Настройки данной страницы всего лишь указывают, какие из методов "
+#~ "верификации доступны Вашим пользователям. Вы можете включить двухэтапную "
+#~ "верификацию для Вашего аккаунта на"
+
+#~ msgctxt "visit your profile page"
+#~ msgid "profile page"
+#~ msgstr "странице профиля"
+
+#~ msgctxt "No codes left"
+#~ msgid "No"
+#~ msgstr "0"
+
+#, fuzzy
+#~ msgid ""
+#~ "It is prohibited to view plugin settings on this site in the Google 2-"
+#~ "Step Verification Pro network settings."
+#~ msgstr ""
+#~ "Просмотр настроек Google 2-Step Verification Pro на этом сайте запрещен в "
+#~ "сетевых настройках Google 2-Step Verification Pro."
+
+#, fuzzy
+#~ msgid ""
+#~ "It is prohibited to change plugin settings on this site in the Google 2-"
+#~ "Step Verification Pro network settings."
+#~ msgstr ""
+#~ "Изменение настроек Google 2-Step Verification Pro на этом сайте запрещено "
+#~ "в сетевых настройках Google 2-Step Verification Pro."
+
+#~ msgid ""
+#~ "Allow enabling email notification about failed 2-Step verification "
+#~ "attempts"
+#~ msgstr ""
+#~ "Разрешить включение email уведомлений о неудачных попытках верификации"
+
+#~ msgid ""
+#~ "If you would like to add buttons to your page or post, please use %s "
+#~ "button"
+#~ msgstr ""
+#~ "Если вы хотите добавить кнопки на вашу страницу или пост, то используйте "
+#~ "кнопку %s"
+
+#~ msgid ""
+#~ "You can add buttons to your page or post by clicking on %s button in the "
+#~ "content edit block using the Visual mode. If the button isn't displayed, "
+#~ "please use the shortcode %s"
+#~ msgstr ""
+#~ "Вы можете добавить кнопки на вашу страницу или пост, нажав на кнопку %s в "
+#~ "блоке редактирования контента в режиме Visual. Если кнопка не "
+#~ "отображается, пожалуйста, используйте шорткод %s"
+
+#~ msgid "Display button"
+#~ msgstr "Отображение кнопок"
+
+#~ msgid "My Page"
+#~ msgstr "Моя страница"
+
+#~ msgid "Like"
+#~ msgstr "Нравиться"
+
+#~ msgid "Share"
+#~ msgstr "Поделиться"
+
+#~ msgid "Buttons position"
+#~ msgstr "Позиции кнопки"
+
+#~ msgid "Before"
+#~ msgstr "Перед"
+
+#~ msgid "After"
+#~ msgstr "После"
+
+#~ msgid "Before and After"
+#~ msgstr "Перед и после"
+
+#~ msgid "Shortcode"
+#~ msgstr "Шорткод"
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Add buttons to your page or post"
+#~ msgstr "Добавить кнопки на вашу страницу или пост"
+
+#~ msgid "Facebook Button Settings"
+#~ msgstr "Настройки Facebook Button"
+
+#~ msgid "Error: File size > 32K"
+#~ msgstr "Ошибка: Размер файла > 32К"
+
+#~ msgid "Error: Invalid file type"
+#~ msgstr "Ошибка: Некорректный тип файла"
+
+#~ msgid "Upload successful."
+#~ msgstr "Загрузка прошла удачно."
+
+#~ msgid "Error: moving file failed"
+#~ msgstr "Ошибка: При перемещении произошла ошибка"
+
+#~ msgid "Error: check image width or height"
+#~ msgstr "Ошибка: Проверьте ширину и высоту изображения"
+
+#~ msgid "Uploading Error: check image properties"
+#~ msgstr "Ошибка загрузки: Проверьте опции изображения"
+
+#~ msgid "How to Use Step-by-step Instruction"
+#~ msgstr "Инструкция по использованию"
+
+#~ msgid "Extra settings"
+#~ msgstr "Дополнительные настройки"
+
+#~ msgid "Go PRO"
+#~ msgstr "Перейти на PRO версию"
+
+#~ msgid "Facebook buttons language"
+#~ msgstr "Язык для Facebook кнопки"
+
+#~ msgid "Change the language of Facebook Button"
+#~ msgstr "Выберите язык для Facebook кнопок"
+
+#~ msgid "Use the current site language"
+#~ msgstr "Использовать текущий язык сайта"
+
+#~ msgid "Using"
+#~ msgstr "Используя"
+
+#~ msgid "Activate"
+#~ msgstr "Активировать"
+
+#~ msgid "Display buttons in excerpt"
+#~ msgstr "Отображать кнопки для цитаты"
+
+#~ msgid "Meta tags"
+#~ msgstr "Мета теги"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "Featured Image"
+#~ msgstr "Миниатюра записи"
+
+#~ msgid "Custom Image"
+#~ msgstr "Пользовательское изображение"
+
+#~ msgid "This image will be used for all of the posts"
+#~ msgstr "Это изображение будет использоваться для всех постов"
+
+#~ msgid "Post excerpt"
+#~ msgstr "Цитата"
+
+#~ msgid "This description will be used for all of the posts"
+#~ msgstr "Это краткое описание будет использоваться для всех постов"
+
+#~ msgid "If you upgrade to Pro version all your settings will be saved."
+#~ msgstr "При установке Pro версии плагина, все ваши настройки сохраняются."
+
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr "Активируйте премиум опции обновившись до Pro версии"
+
+#~ msgid "Learn More"
+#~ msgstr "Подробнее"
+
+#~ msgid "Your Facebook ID or username"
+#~ msgstr "Ваш Facebook ID или имя пользователя"
+
+#~ msgid "\"My page\" button image"
+#~ msgstr "Изображение кнопки \"Моя страница\""
+
+#~ msgid "Standard Facebook image"
+#~ msgstr "Стандартная картинка Facebook"
+
+#~ msgid "Custom Facebook image"
+#~ msgstr "Пользовательская картинка Facebook"
+
+#~ msgid ""
+#~ "To use custom image you need to setup permissions to upload directory of "
+#~ "your site"
+#~ msgstr ""
+#~ "Для использования кастомного изображения Вам нужно выдать права доступа "
+#~ "на папку загрузок на вашем сайте"
+
+#~ msgid "Current image"
+#~ msgstr "Текущее изображение"
+
+#~ msgid ""
+#~ "Image properties: max image width:100px; max image height:40px; max image "
+#~ "size:32Kb; image types:\"jpg\", \"jpeg\", \"png\"."
+#~ msgstr ""
+#~ "Опции изображения для загрузки: максимальная ширина:100px; максимальная "
+#~ "высота:40px; максимальный размер:32Kb; тип файла:\"jpg\", \"jpeg\", \"png"
+#~ "\"."
+
+#~ msgid "Button layout"
+#~ msgstr "Вид кнопок"
+
+#~ msgid "Like button action"
+#~ msgstr "Действие кнопки \"Like\""
+
+#~ msgid "Recommend"
+#~ msgstr "Рекомендую"
+
+#~ msgid "Layout width"
+#~ msgstr "Ширина блока"
+
+#~ msgid "Color scheme"
+#~ msgstr "Цветовая схема"
+
+#~ msgid "Light"
+#~ msgstr "Светлая"
+
+#~ msgid "Dark"
+#~ msgstr "Тёмная"
+
+#~ msgid "Html tag for \"Like\" button"
+#~ msgstr "Html тэг для кнопки \"Нравиться\""
+
+#~ msgid "Use this tag to improve validation of your site"
+#~ msgstr "Используйте этот тэг для лучшей валидации вашего сайта"
+
+#~ msgid "\"Like\" for an entire site on every page:"
+#~ msgstr "Ставить \"Нравиться\"  всему сайту на каждой странице:"
+
+#~ msgid ""
+#~ "Notice: \"Like for the entire site\" option does not create an extra "
+#~ "button. This option merely allows your users to like the entire website "
+#~ "when this option is enabled, or a single post when this option is "
+#~ "disabled, when clicking the regular \"Like\" button."
+#~ msgstr ""
+#~ "Внимание: опция \"Нравиться для всего сайта\" - не создает  "
+#~ "дополнительную кнопку. Эта опция позволяет при клике пользователями на "
+#~ "стандартную кнопку ставить \"Нравиться\" для всего сайта, если эта опция "
+#~ "включена, или \"Нравиться\" для отдельной записи, когда эта опция "
+#~ "выключена."
+
+#~ msgid "Facebook Button preview:"
+#~ msgstr "Предварительный просмотр Facebook кнопок"
+
+#~ msgid ""
+#~ "Please choose the necessary post types (or single pages) where Facebook "
+#~ "button will be displayed:"
+#~ msgstr ""
+#~ "Пожалуйста, выберите те типы постов (или отдельные страницы), где будут "
+#~ "отображаться кнопки Facebook:"
+
+#~ msgid "Show URL for pages"
+#~ msgstr "Отображать URL для страниц"
+
+#~ msgid "Example of the site's pages tree"
+#~ msgstr "Пример дерева страниц сайта"
+
+#~ msgid "Example of site pages' tree"
+#~ msgstr "Пример дерева страниц сайта"
+
+#~ msgid "Custom description"
+#~ msgstr "Пользовательское краткое описание"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Настройки плагина были изменены. Для того, чтобы сохранить их, "
+#~ "пожалуйста, не забудьте нажать кнопку \"Сохранить\"."
+
+#~ msgid "pixels"
+#~ msgstr "px"
+
+#~ msgid "Go"
+#~ msgstr "Перейти на"
+
+#~ msgid "Are you sure you want to restore all settings by default?"
+#~ msgstr ""
+#~ "Вы уверены что хотите восстановить все настройки плагина к настройкам по-"
+#~ "умолчанию?"
+
+#~ msgid "Yes, restore all settings"
+#~ msgstr "Да, восстановить все настройки"
+
+#~ msgid "No, go back to the settings page"
+#~ msgstr "Нет, вернутся на страницу настроек"
+
+#~ msgid "Restore all plugin settings to defaults"
+#~ msgstr "Восстановить все настройки плагина к настройкам по-умолчанию"
+
+#~ msgid "Choose display settings:"
+#~ msgstr "Выбор опций отображения:"
+
+#~ msgid "Facebook image:"
+#~ msgstr "Facebook изображение:"
+
+#~ msgid "requires"
+#~ msgstr "требует"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "или выше, поэтому он был деактивирован! Пожалуйста, обновите WordPress и "
+#~ "попробуйте еще раз."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Вернуться к WordPress на"
+
+#~ msgid "Plugins page"
+#~ msgstr "Страницу плагинов"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later. If the error will appear again, "
+#~ "please, contact us <a href=http://support.bestwebsoft.com>BestWebSoft</"
+#~ "a>. We are sorry for inconvenience."
+#~ msgstr ""
+#~ "Что-то пошло не так. Повторите попытку позже. Если ошибка появится снова, "
+#~ "пожалуйста, свяжитесь с нами <a href=http://support.bestwebsoft."
+#~ "com>BestWebSoft</a>. Приносим извинения за неудобства."
+
+#~ msgid "This license key is bind to another site"
+#~ msgstr "Этот лицензионный ключ привязан к другому сайту"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries. Please, "
+#~ "upload the plugin manually."
+#~ msgstr ""
+#~ "К сожалению, вы превысили количество доступных попыток в день. "
+#~ "Пожалуйста, загрузите плагин вручную."
+
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr "Не удалось открыть архив ZIP. Пожалуйста, загрузите плагин вручную"
+
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Ваш сервер не поддерживает ни библиотеку ZipArchive, ни библиотеку Phar. "
+#~ "Пожалуйста, загрузите плагин вручную"
+
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Не удалось загрузить архив плагина. Пожалуйста, загрузите плагин вручную"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvienience."
+#~ msgstr ""
+#~ "Что-то пошло не так. Повторите попытку позже или загрузите плагин "
+#~ "вручную. Приносим извинения за неудобства."
+
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Пожалуйста, введите Ваш лицензионный ключ"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr " Если вам понравился плагин то поставте нам 5 звезд на WordPress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Оценить плагин"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Если у вас есть какие-то вопросы, обращайтесь"
+
+#~ msgid ""
+#~ "Congratulations! The PRO version of the plugin is successfully download "
+#~ "and activated."
+#~ msgstr ""
+#~ "Поздравляем! PRO версия плагина была успешно загружена и активирована."
+
+#~ msgid "Please, go to"
+#~ msgstr "Пожалуйста, перейдите на"
+
+#~ msgid "You will be redirected automatically in 5 seconds."
+#~ msgstr "Вы будете перенаправлены автоматически через 5 секунд."
+
+#~ msgid "You can download and activate"
+#~ msgstr "Вы можете скачать и активировать"
+
+#~ msgid "version of this plugin by entering Your license key."
+#~ msgstr "версию этого плагина, введя ваш лицензионный ключ."
+
+#~ msgid ""
+#~ "You can find your license key on your personal page Client area, by "
+#~ "clicking on the link"
+#~ msgstr ""
+#~ "Вы можете найти ваш лицензионный ключ на вашей личной странице Client "
+#~ "area, нажав на ссылку"
+
+#~ msgid ""
+#~ "(your username is the email you specify when purchasing the product)."
+#~ msgstr ""
+#~ "(ваше имя пользователя - это электронный адрес, указанный при покупке "
+#~ "продукта)."
+
+#~ msgid "Go!"
+#~ msgstr "Перейти!"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "К сожалению, вы превысили количество доступных попыток в день. "
+#~ "Пожалуйста, загрузите плагин вручную."
+
+#~ msgid ""
+#~ "It's time to upgrade your <strong>Facebook Like Button</strong> to "
+#~ "<strong>PRO</strong> version"
+#~ msgstr ""
+#~ "Пора обновить ваш <strong>плагин Facebook Like Button</strong> до "
+#~ "<strong>PRO</strong> версии"
+
+#~ msgid "Extend standard plugin functionality with new great options"
+#~ msgstr "Расширение стандартного функционала плагина новыми опциями"
+
+#~ msgid ""
+#~ "This functionality is available in the Pro version of the plugin. For "
+#~ "more details, please follow the link"
+#~ msgstr ""
+#~ "Данный функционал доступен в Про версии плагина. Для более детальной "
+#~ "информации смотрите"
